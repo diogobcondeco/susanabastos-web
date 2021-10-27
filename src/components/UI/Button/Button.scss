@@ -1,0 +1,14 @@
+@import '/src/assets/styles/colors';
+
+.messageButton {
+    padding: 1rem 1.5rem;
+    background-color: $pastel-blue;
+    border-radius: 1rem;
+    margin: 1rem;
+	border: 0;
+    font-weight: 500;
+
+    &:hover {
+        background-color: orange;
+    }
+}
